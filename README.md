@@ -2,7 +2,7 @@
 
 ## Setting up your mod info
 
-1. Find and replace all `MY_MOD_NAME`, e.g. "OrcDance"
+1. Find and replace all `MY_MOD_NAME`, e.g. "OrcDance" (note: also rename directories and files)
 2. Find and replace all `MY_LOWERCASE_MOD_NAME`, e.g. "orcdance"
 3. Find and replace all `MY_LOWERCASE_USERNAME`, e.g. "pineapler"
 
