@@ -1,7 +1,6 @@
 ﻿bin/
 obj/
+staging/
+publish/
 
 *.user
-
-# Non-free, user provided
-Libs/**/Assembly-CSharp.dll 

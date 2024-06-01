@@ -8,8 +8,7 @@
 
 ## Setting up game assemblies
 
-Game specific assemblies (Assembly-CSharp.dll, etc.) should not be tracked by version control. You must provide
-your own copy of this file.
+You must provide your own copy of the game specific assemblies:
 
 1. Copy `<game_install_dir>/OrcMassage_Data/Managed/Assembly-CSharp.dll` into `<mod_dir>/Libs`
 
@@ -19,6 +18,7 @@ For example, if you needed access to Cinemachine:
 
 1. Copy `<game_install_dir>/OrcMassage_Data/Managed/Cinemachine.dll` into `<mod_dir>/Libs`
 2. Open your .csproj file and add a new entry under the comment `<!-- ADD ASSEMBLY REFERENCES HERE -->`
+
 ```xml
 <Reference Include="Cinemachine">
     <HintPath>Libs\Cinemachine.dll</HintPath>
